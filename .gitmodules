@@ -1,0 +1,3 @@
+[submodule "/home/aak/.config/nvim"]
+	path = /home/aak/.config/nvim
+	url = https://github.com/DerArkeN/config.nvim
