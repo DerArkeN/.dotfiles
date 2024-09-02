@@ -1,3 +1,5 @@
+# !/usr/bin/env bash
+
 # this script requires you to have https://github.com/sam-mfb/git-credential-forwarder 's .js files
 # in your home directory as well as the devcontainer-cli installed
 set -e
