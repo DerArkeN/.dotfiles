@@ -9,4 +9,6 @@ source /usr/share/doc/fzf/examples/completion.zsh
 export GIT_EDITOR=$VIM
 export DOTFILES=$HOME/.dotfiles
 
+export PATH=$PATH:/opt/nvim-linux64/bin
+
 bindkey -s ^f "~/.local/bin/tmux-sessionizer\n"
