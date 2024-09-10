@@ -14,3 +14,11 @@ path+=('/usr/local/go/bin')
 export PATH
 
 bindkey -s ^f "~/.local/bin/tmux-sessionizer\n"
+
+eval "$(devbox global shellenv)"
+
+# automatically start a devbox shell if devbox.json exists
+if [[ -f devbox.json && $DEVBOX_SHELL_ENABLED != 1 ]]; then
+    devbox shell
+fi
+
