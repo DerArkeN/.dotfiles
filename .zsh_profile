@@ -14,7 +14,7 @@ bindkey -s ^f "~/.local/bin/tmux-sessionizer\n"
 eval "$(devbox global shellenv)"
 
 # automatically start a devbox shell if devbox.json exists
-if [[ -f devbox.json && $DEVBOX_SHELL_ENABLED != 1 ]]; then
+if [[ -f devbox.json && $DEVBOX_SHELL_ENABLED != 1 && $TERM_PROGRAM != "vscode" ]]; then
     devbox shell
 fi
 
