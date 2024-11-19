@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-selected=$(kubectl config get-contexts | fzf --no-sort)
+selected=$(kubectl config get-contexts | fzf --tac)
 
 if [[ -z $selected ]]; then
         exit 0
