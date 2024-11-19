@@ -1,6 +1,74 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "fzf@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#fzf",
+      "source": "devbox-search",
+      "version": "0.56.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xwh5mndpjd683kx67zq88jrm9f6jn03a-fzf-0.56.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/dpmbvm7j931cr3did8v0f2kvczznisx2-fzf-0.56.2-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xwh5mndpjd683kx67zq88jrm9f6jn03a-fzf-0.56.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1jf3qhv1nn1b50kfj1r86d4p6vpc7b1z-fzf-0.56.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/ra3fn92hrq46d22pa44rn7g5d977b0dv-fzf-0.56.2-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1jf3qhv1nn1b50kfj1r86d4p6vpc7b1z-fzf-0.56.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p1ah0vfy5v29cxjfvcv7ipdsb544ddlb-fzf-0.56.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/anmlb2k3v6islmi6g5ga4b1r3z6j3jbl-fzf-0.56.2-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p1ah0vfy5v29cxjfvcv7ipdsb544ddlb-fzf-0.56.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gpqdm0x0vkif9xx2jg1zg57xnk3iq34r-fzf-0.56.2",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/lrym1nm60p6n66qy3grwdjzs13y7jkf4-fzf-0.56.2-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gpqdm0x0vkif9xx2jg1zg57xnk3iq34r-fzf-0.56.2"
+        }
+      }
+    },
     "k9s@latest": {
       "last_modified": "2024-10-13T23:44:06Z",
       "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#k9s",

@@ -3,7 +3,8 @@
   "packages": [
     "tmux@latest",
     "neovim@latest",
-    "k9s@latest"
+    "k9s@latest",
+    "fzf@latest"
   ],
   "shell": {
     "init_hook": [
