@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+selected=$(kubectl config get-contexts | fzf --no-sort)
+
+if [[ -z $selected ]]; then
+        exit 0
+fi
+
+selectedArray=($selected)
+
+context=${selectedArray[0]}
+
+kubectl config use-context $context
