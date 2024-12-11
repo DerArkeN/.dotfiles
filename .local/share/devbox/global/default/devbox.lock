@@ -493,6 +493,54 @@
         }
       }
     },
+    "ripgrep@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#ripgrep",
+      "source": "devbox-search",
+      "version": "14.1.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rwz7cqq6df56r0225r2hn8dvwqkpps6k-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rwz7cqq6df56r0225r2hn8dvwqkpps6k-ripgrep-14.1.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cn3x8hlhpz8fyp0f2qpbsh8jjlxlrfm3-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cn3x8hlhpz8fyp0f2qpbsh8jjlxlrfm3-ripgrep-14.1.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lf1zp7xmzjzkr7xw47flx0h88ixy293z-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lf1zp7xmzjzkr7xw47flx0h88ixy293z-ripgrep-14.1.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6gd9yardd6qk9dkgdbmh1vnac0vmkh7d-ripgrep-14.1.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6gd9yardd6qk9dkgdbmh1vnac0vmkh7d-ripgrep-14.1.1"
+        }
+      }
+    },
     "tmux@latest": {
       "last_modified": "2024-09-28T11:58:19Z",
       "resolved": "github:NixOS/nixpkgs/b5b2fecd0cadd82ef107c9583018f381ae70f222#tmux",

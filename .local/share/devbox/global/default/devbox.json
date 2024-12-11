@@ -11,7 +11,8 @@
     "glab@latest",
     "gcc@latest",
     "lua@latest",
-    "unzip@latest"
+    "unzip@latest",
+    "ripgrep@latest"
   ],
   "shell": {
     "init_hook": [
