@@ -6,7 +6,12 @@
     "k9s@latest",
     "fzf@latest",
     "xclip@latest",
-    "direnv@latest"
+    "direnv@latest",
+    "kubectl@latest",
+    "glab@latest",
+    "gcc@latest",
+    "lua@latest",
+    "unzip@latest"
   ],
   "shell": {
     "init_hook": [
