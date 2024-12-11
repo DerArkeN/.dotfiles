@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "direnv@latest": {
+      "last_modified": "2024-12-08T11:15:23Z",
+      "resolved": "github:NixOS/nixpkgs/93dc9803a1ee435e590b02cde9589038d5cc3a4e#direnv",
+      "source": "devbox-search",
+      "version": "2.35.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bvg8w1yxnph29yrv2qdjqi7fj39jyld5-direnv-2.35.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bvg8w1yxnph29yrv2qdjqi7fj39jyld5-direnv-2.35.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zil3mg3q4f2j28i531wz2j7xfrwc89gw-direnv-2.35.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zil3mg3q4f2j28i531wz2j7xfrwc89gw-direnv-2.35.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qyhj5v07m1ha8j8wfsisrq7xi34dqvvj-direnv-2.35.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qyhj5v07m1ha8j8wfsisrq7xi34dqvvj-direnv-2.35.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/irq2506ybbvsnpmb5gflcbg90390bmdg-direnv-2.35.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/irq2506ybbvsnpmb5gflcbg90390bmdg-direnv-2.35.0"
+        }
+      }
+    },
     "fzf@latest": {
       "last_modified": "2024-11-16T04:25:12Z",
       "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#fzf",
@@ -233,103 +281,51 @@
         }
       }
     },
-    "zsh@latest": {
-      "last_modified": "2024-12-08T19:40:50Z",
-      "resolved": "github:NixOS/nixpkgs/dd51f52372a20a93c219e8216fe528a648ffcbf4#zsh",
+    "xclip@latest": {
+      "last_modified": "2024-11-28T07:51:56Z",
+      "resolved": "github:NixOS/nixpkgs/226216574ada4c3ecefcbbec41f39ce4655f78ef#xclip",
       "source": "devbox-search",
-      "version": "5.9",
+      "version": "0.13",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/g1flsbrma4f0zq8gaxc2w377r77mqlv7-zsh-5.9",
+              "path": "/nix/store/wysimvb25700c120bbnznaywlhz612dl-xclip-0.13",
               "default": true
-            },
-            {
-              "name": "man",
-              "path": "/nix/store/8nyh0hbraks6zhm74dcwrdwnqz8xpbil-zsh-5.9-man",
-              "default": true
-            },
-            {
-              "name": "doc",
-              "path": "/nix/store/xhr7d40p0d6l17yih2i3m4cnd37gsk65-zsh-5.9-doc"
-            },
-            {
-              "name": "info",
-              "path": "/nix/store/byi1ilvb06cwy4ah6488difgsgiabfpc-zsh-5.9-info"
             }
           ],
-          "store_path": "/nix/store/g1flsbrma4f0zq8gaxc2w377r77mqlv7-zsh-5.9"
+          "store_path": "/nix/store/wysimvb25700c120bbnznaywlhz612dl-xclip-0.13"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ay9v0m21ic0pqyiiwkwdr5c9fq60m70f-zsh-5.9",
+              "path": "/nix/store/gyx7z22b0qrd3d843jlkpxrg5rajdfzb-xclip-0.13",
               "default": true
-            },
-            {
-              "name": "man",
-              "path": "/nix/store/vqcajjpjqjfik9qhl2z41xqxydxvb2ja-zsh-5.9-man",
-              "default": true
-            },
-            {
-              "name": "doc",
-              "path": "/nix/store/qkvj5l78pb370d62pp0ry0cl7v31vp3h-zsh-5.9-doc"
-            },
-            {
-              "name": "info",
-              "path": "/nix/store/3wgn0b92mplf90hzm9ki7f05g6vxp38f-zsh-5.9-info"
             }
           ],
-          "store_path": "/nix/store/ay9v0m21ic0pqyiiwkwdr5c9fq60m70f-zsh-5.9"
+          "store_path": "/nix/store/gyx7z22b0qrd3d843jlkpxrg5rajdfzb-xclip-0.13"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/12mi82xaw8zcr6awlxngrppjcyvk6k6x-zsh-5.9",
+              "path": "/nix/store/2qjwlw63dsr9pipnv3f25fkavf879y0l-xclip-0.13",
               "default": true
-            },
-            {
-              "name": "man",
-              "path": "/nix/store/v7clhfxr54a51iyal7xgcjcmj38djky0-zsh-5.9-man",
-              "default": true
-            },
-            {
-              "name": "doc",
-              "path": "/nix/store/wipfkp8lprg402l2w5mykcgblk9q5p90-zsh-5.9-doc"
-            },
-            {
-              "name": "info",
-              "path": "/nix/store/jrqhdp0jrlz8nh0r0346h0q12bcadysf-zsh-5.9-info"
             }
           ],
-          "store_path": "/nix/store/12mi82xaw8zcr6awlxngrppjcyvk6k6x-zsh-5.9"
+          "store_path": "/nix/store/2qjwlw63dsr9pipnv3f25fkavf879y0l-xclip-0.13"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/m7l6yzmflrf9hjs8707lk9nkhi6f73n1-zsh-5.9",
+              "path": "/nix/store/fdc9xcqb789ny1rvmadz2v13ri7ndb1x-xclip-0.13",
               "default": true
-            },
-            {
-              "name": "man",
-              "path": "/nix/store/qpy16kxxawbvrbfw3p0ycnbhpy273vbi-zsh-5.9-man",
-              "default": true
-            },
-            {
-              "name": "doc",
-              "path": "/nix/store/59fn677hxxd3ksk84jw27pyv7isq3r8z-zsh-5.9-doc"
-            },
-            {
-              "name": "info",
-              "path": "/nix/store/w5xh4zc52zdxfcy80ry5a0ngdz1j6mpi-zsh-5.9-info"
             }
           ],
-          "store_path": "/nix/store/m7l6yzmflrf9hjs8707lk9nkhi6f73n1-zsh-5.9"
+          "store_path": "/nix/store/fdc9xcqb789ny1rvmadz2v13ri7ndb1x-xclip-0.13"
         }
       }
     }

@@ -5,7 +5,8 @@
     "neovim@latest",
     "k9s@latest",
     "fzf@latest",
-    "zsh@latest"
+    "xclip@latest",
+    "direnv@latest"
   ],
   "shell": {
     "init_hook": [
