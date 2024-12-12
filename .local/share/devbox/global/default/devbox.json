@@ -8,7 +8,6 @@
     "xclip@latest",
     "direnv@latest",
     "kubectl@latest",
-    "glab@latest",
     "gcc@latest",
     "lua@latest",
     "unzip@latest",
