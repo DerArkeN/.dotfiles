@@ -11,7 +11,8 @@
     "gcc@latest",
     "lua@latest",
     "unzip@latest",
-    "ripgrep@latest"
+    "ripgrep@latest",
+    "podman@latest"
   ],
   "shell": {
     "init_hook": [

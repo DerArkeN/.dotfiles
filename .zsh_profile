@@ -3,6 +3,8 @@ export XDG_CONFIG_HOME=$HOME/.config
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 export DOTFILES=$HOME/.dotfiles
 
+alias docker='podman'
+
 # path+=('/usr/local/go/bin')
 # export PATH
 

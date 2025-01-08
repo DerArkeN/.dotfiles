@@ -445,6 +445,74 @@
         }
       }
     },
+    "podman@latest": {
+      "last_modified": "2024-12-26T01:25:00Z",
+      "resolved": "github:NixOS/nixpkgs/16e046229f3b4f53257973a5532bcbb72457d2f2#podman",
+      "source": "devbox-search",
+      "version": "5.3.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w4ryjipi3mdk7k7d6iykzbb3vxfgvnkr-podman-5.3.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/rypyxm5x9rl750py99dfkljkypwdpbyq-podman-5.3.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w4ryjipi3mdk7k7d6iykzbb3vxfgvnkr-podman-5.3.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dxzwlh4bqij84bp1533cjvwn1512qcha-podman-5.3.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/b8mpz084zg373d1y5vm8q89yflwx5jh5-podman-5.3.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dxzwlh4bqij84bp1533cjvwn1512qcha-podman-5.3.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0y6h337v4cxmg89vabrns1cfgzbn45wk-podman-5.3.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/1s34g51b1135lmvawfmmw1w6kvyz2ilz-podman-5.3.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0y6h337v4cxmg89vabrns1cfgzbn45wk-podman-5.3.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/blikxv3w54skkjwrp6l1xdhwr9zavaf3-podman-5.3.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/bamrzpx8zmlzwdgxfmv90bnd97ckycx6-podman-5.3.1-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/blikxv3w54skkjwrp6l1xdhwr9zavaf3-podman-5.3.1"
+        }
+      }
+    },
     "ripgrep@latest": {
       "last_modified": "2024-11-16T04:25:12Z",
       "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#ripgrep",
