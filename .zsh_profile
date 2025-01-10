@@ -8,9 +8,6 @@ alias docker='podman'
 # path+=('/usr/local/go/bin')
 # export PATH
 
-bindkey -s ^f "~/.local/bin/tmux-sessionizer\n"
-bindkey -s ^k "~/.local/bin/kube-switcher\n"
-
 eval "$(devbox global shellenv)"
 
 # automatically start a devbox shell if devbox.json exists
