@@ -13,7 +13,8 @@
     "unzip@latest",
     "ripgrep@latest",
     "podman@latest",
-    "grpcurl@latest"
+    "grpcurl@latest",
+    "jq@latest"
   ],
   "shell": {
     "init_hook": [
