@@ -1,0 +1,17 @@
+[include]
+    path = ~/.gitconfiglocal
+[pull]
+	rebase = true
+[alias]
+    s = status -s
+    p = pull
+    sw = switch
+    ada = add -A
+    ci = commit
+    amend = commit --amend --reuse-message=HEAD
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
