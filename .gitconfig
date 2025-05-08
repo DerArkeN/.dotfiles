@@ -6,7 +6,7 @@
     ps = push
     sw = switch
     ada = add -A
-    ci = commit
+    cm = commit
     amend = commit --amend --reuse-message=HEAD
 [init]
     defaultBranch = main
