@@ -1,7 +1,5 @@
 [include]
     path = ~/.gitconfiglocal
-[pull]
-	rebase = true
 [alias]
     s = status -s
     p = pull
@@ -9,3 +7,11 @@
     ada = add -A
     ci = commit
     amend = commit --amend --reuse-message=HEAD
+[init]
+    defaultBranch = main
+[push]
+    recurseSubmodules = on-demand
+[pull]
+    rebase = true
+[submodule]
+    recurse = true
