@@ -2,7 +2,8 @@
     path = ~/.gitconfiglocal
 [alias]
     s = status -s
-    p = pull
+    pl = pull
+    ps = push
     sw = switch
     ada = add -A
     ci = commit
