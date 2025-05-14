@@ -14,7 +14,8 @@
     "ripgrep@latest",
     "podman@latest",
     "grpcurl@latest",
-    "jq@latest"
+    "jq@latest",
+    "nodejs@21"
   ],
   "shell": {
     "init_hook": [
