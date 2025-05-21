@@ -1,7 +1,7 @@
 [include]
     path = ~/.gitconfiglocal
 [alias]
-    s = status -s
+    s = status -sb
     pl = pull
     ps = push
     sw = switch
