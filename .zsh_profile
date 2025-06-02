@@ -3,7 +3,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 alias dofi='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 export DOTFILES=$HOME/.dotfiles
 
-alias k='kubectl'
 alias e='nvim'
 
 eval "$(devbox global shellenv)"
